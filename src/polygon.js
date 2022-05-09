@@ -132,24 +132,5 @@ class Polygon {
 
 }
 
-// const params = {
-//     "headers": {
-//         'x-api-key': process.env.API_KEY,
-//         'content-type': "application/json",
-//     }
-// }
-
-// const polygonUrl = "https://api-eu1.tatum.io/v3/polygon";
-
-// polObj = new Polygon(polygonUrl, params);
-// polObj.generateWallet();
-// polObj.generateWalletAddress("xpub6E5RBfPZeHX8Ux5vHHmMZgmdazCeZdMGUNS8ZgVriwAi9ZTDzKAsJZHDcWV1ViDS4ubNpmHfzfqmP9bt26Hj2qzbreiYi3LDNZ1yia4gbP7", 1);
-
-
-// const pkPayload = {
-//     "index": 1,
-//     "mnemonic": "twenty uniform please seed balance alley filter paper mouse elbow lunch assume blur focus card salute arrange train noise twist climb tumble demise survey"
-// }
-// polObj.geneartePrivateKey(pkPayload);
 exports.Polygon = Polygon;
 
